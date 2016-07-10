@@ -16,5 +16,11 @@ public class NewTest {
 	  
 	  System.out.println("Test case - 2");
 	  Assert.assertEquals(1, 2);
+	  
+	    @Test
+  public void f3() {
+	  
+	  System.out.println("Test case - 3");
+	  Assert.assertEquals(1, 1);
   }
 }
