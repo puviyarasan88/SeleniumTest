@@ -14,5 +14,6 @@ public class NewTest1 extends TestListenerAdapter {
 	public void onTestFailure(ITestResult tr)
 	{
 		System.out.println("Fail");
+		System.out.println("Puvi");
   }
 }
