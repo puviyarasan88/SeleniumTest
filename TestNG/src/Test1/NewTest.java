@@ -9,6 +9,7 @@ public class NewTest {
   public void f() {
 	  
 	  System.out.println("Test case - 1");
+	  System.out.println("Test case - 1");
   }
   
   @Test
