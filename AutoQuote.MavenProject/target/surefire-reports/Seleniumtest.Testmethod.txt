@@ -1,0 +1,160 @@
+-------------------------------------------------------------------------------
+Test set: Seleniumtest.Testmethod
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 8, Skipped: 16, Time elapsed: 122.206 sec <<< FAILURE!
+Given Open browser and navigate to Login page(Scenario: To test high level function)  Time elapsed: 0.03 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: session not created exception
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32.98 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LTUSLT012056', ip: '192.168.0.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:160)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:117)
+	at stepDefinition.DefinitionClass.Open_browser_and_navigate_to_Login_page(DefinitionClass.java:25)
+	at ?.Given Open browser and navigate to Login page(HiglevelFlow.feature:5)
+
+Scenario: To test high level function  Time elapsed: 0.031 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: session not created exception
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32.98 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LTUSLT012056', ip: '192.168.0.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:139)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:160)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:117)
+	at stepDefinition.DefinitionClass.Open_browser_and_navigate_to_Login_page(DefinitionClass.java:25)
+	at ?.Given Open browser and navigate to Login page(HiglevelFlow.feature:5)
+
+When Entered blank username, password and clicked on Login button(Scenario: Enter Blank username and password in Login page)  Time elapsed: 0.01 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Submit"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LTUSLT012056', ip: '192.168.0.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\160297\AppData\Local\Temp\scoped_dir5068_3034}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c539c526758692bc13e8734acf5917b1
+*** Element info: {Using=id, value=Submit}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at stepDefinition.DefinitionClass.Entered_blank_username_password_and_clicked_on_Login_button(DefinitionClass.java:109)
+	at ?.When Entered blank username, password and clicked on Login button(Logintest.feature:6)
+
+Scenario: Enter Blank username and password in Login page  Time elapsed: 0.01 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"Submit"}
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LTUSLT012056', ip: '192.168.0.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\160297\AppData\Local\Temp\scoped_dir5068_3034}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c539c526758692bc13e8734acf5917b1
+*** Element info: {Using=id, value=Submit}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at stepDefinition.DefinitionClass.Entered_blank_username_password_and_clicked_on_Login_button(DefinitionClass.java:109)
+	at ?.When Entered blank username, password and clicked on Login button(Logintest.feature:6)
+
+Given Open browser and navigate to Login page(Scenario: Enter valid username and invalid password in Login page)  Time elapsed: 0.006 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.72 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LTUSLT012056', ip: '192.168.0.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\160297\AppData\Local\Temp\scoped_dir1212_13858}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 42d0d93b519bc7384394440875e51100
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at stepDefinition.DefinitionClass.Open_browser_and_navigate_to_Login_page(DefinitionClass.java:26)
+	at ?.Given Open browser and navigate to Login page(Logintest.feature:12)
+
+Scenario: Enter valid username and invalid password in Login page  Time elapsed: 0.015 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=58.0.3029.96)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.72 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'LTUSLT012056', ip: '192.168.0.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\160297\AppData\Local\Temp\scoped_dir1212_13858}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.96, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 42d0d93b519bc7384394440875e51100
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at stepDefinition.DefinitionClass.Open_browser_and_navigate_to_Login_page(DefinitionClass.java:26)
+	at ?.Given Open browser and navigate to Login page(Logintest.feature:12)
+
+When Entered invalid username or password and clicked on Login button(Scenario: Enter invalid username and valid password in Login page)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinition.DefinitionClass.Entered_invalid_username_or_password_and_clicked_on_Login_button(DefinitionClass.java:122)
+	at ?.When Entered invalid username or password and clicked on Login button(Logintest.feature:22)
+
+Scenario: Enter invalid username and valid password in Login page  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinition.DefinitionClass.Entered_invalid_username_or_password_and_clicked_on_Login_button(DefinitionClass.java:122)
+	at ?.When Entered invalid username or password and clicked on Login button(Logintest.feature:22)
+
